@@ -11,4 +11,4 @@ if [ "$?" -ne 0 ]; then
     exit 1
 fi
 
-${tmpdir}/pkg-config "$@"
+${tmpdir}/pkg-config --static "$@"
