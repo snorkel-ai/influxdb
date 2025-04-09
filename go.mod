@@ -1,12 +1,12 @@
 module github.com/influxdata/influxdb/v2
 
-go 1.22.0
+go 1.23.0
 
-toolchain go1.22.7
+toolchain go1.24.2
 
-replace golang.org/x/crypto => golang.org/x/crypto v0.33.0
+replace golang.org/x/crypto => golang.org/x/crypto v0.37.0
 
-replace golang.org/x/net => golang.org/x/net v0.35.0
+replace golang.org/x/net => golang.org/x/net v0.39.0
 
 replace github.com/hashicorp/go-retryablehttp => github.com/hashicorp/go-retryablehttp v0.7.7
 
@@ -72,11 +72,11 @@ require (
 	go.etcd.io/bbolt v1.3.6
 	go.uber.org/multierr v1.6.0
 	go.uber.org/zap v1.16.0
-	golang.org/x/crypto v0.33.0
+	golang.org/x/crypto v0.37.0
 	golang.org/x/exp v0.0.0-20240604190554-fc45aab8b7f8
-	golang.org/x/sync v0.11.0
-	golang.org/x/sys v0.30.0
-	golang.org/x/text v0.22.0
+	golang.org/x/sync v0.13.0
+	golang.org/x/sys v0.32.0
+	golang.org/x/text v0.24.0
 	golang.org/x/time v0.5.0
 	golang.org/x/tools v0.22.0
 	google.golang.org/protobuf v1.36.0
@@ -246,9 +246,9 @@ require (
 	go.uber.org/atomic v1.7.0 // indirect
 	golang.org/x/exp/typeparams v0.0.0-20221208152030-732eee02a75a // indirect
 	golang.org/x/mod v0.18.0 // indirect
-	golang.org/x/net v0.35.0 // indirect
+	golang.org/x/net v0.39.0 // indirect
 	golang.org/x/oauth2 v0.21.0 // indirect
-	golang.org/x/term v0.29.0 // indirect
+	golang.org/x/term v0.31.0 // indirect
 	golang.org/x/xerrors v0.0.0-20231012003039-104605ab7028 // indirect
 	gonum.org/v1/gonum v0.12.0 // indirect
 	google.golang.org/api v0.183.0 // indirect
